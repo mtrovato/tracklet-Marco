@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.4 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="2" Path="/home/ztao/Documents/ctp7_v7_cornell_demo_v2/ctp7_v7_cornell_demo.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="96a7644da7c740bd89d4ca67bd376f26"/>
+    <Option Name="Part" Val="xc7vx690tffg1927-2"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/new/ctp7_utils_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/ctp7_utils_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1432561266"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/synchronizer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/synchronizer.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/rx_capture_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/rx_capture_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/link_align_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/link_align_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1432669465"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/delay_line.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/delay_line.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/capture_ram/capture_ram.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/ip/capture_ram/capture_ram.xci"/>
+          <Attr Name="ImportTime" Val="1432300258"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/sources_1/imports/new/ttc_decoder.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/sources_1/imports/new/ttc_decoder.vhd"/>
+          <Attr Name="ImportTime" Val="1429209365"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/new/ttc_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/new/ttc_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1434302721"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/edge_detect.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/edge_detect.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/upclock_link_fifo/upclock_link_fifo.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/ip/upclock_link_fifo/upclock_link_fifo.xci"/>
+          <Attr Name="ImportTime" Val="1432300258"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/tx_pattern_generator.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/tx_pattern_generator.vhd"/>
+          <Attr Name="ImportTime" Val="1432682657"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/rx_cdc_alignment_fifo/rx_cdc_alignment_fifo.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/ip/rx_cdc_alignment_fifo/rx_cdc_alignment_fifo.xci"/>
+          <Attr Name="ImportTime" Val="1432300258"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/rx_capture_buffer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/rx_capture_buffer.vhd"/>
+          <Attr Name="ImportTime" Val="1432632903"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_10g_tx_startup_fsm.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_10g_tx_startup_fsm.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_10g_single.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_10g_single.vhd"/>
+          <Attr Name="ImportTime" Val="1432669576"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_10g_rx_startup_fsm.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_10g_rx_startup_fsm.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_10g_common.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_10g_common.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/ctp7_v7_build_cfg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/ctp7_v7_build_cfg.vhd"/>
+          <Attr Name="ImportTime" Val="1432630979"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/sources_1/imports/new/ttc_cmd.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/sources_1/imports/new/ttc_cmd.vhd"/>
+          <Attr Name="ImportTime" Val="1429209365"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/asvetek/delay_line_adj.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/asvetek/delay_line_adj.vhd"/>
+          <Attr Name="ImportTime" Val="1429209364"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/sources_1/imports/new/ctp7_ttc_clocks.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/sources_1/imports/new/ctp7_ttc_clocks.vhd"/>
+          <Attr Name="ImportTime" Val="1436952726"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/new/local_BX_timing_ref.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/new/local_BX_timing_ref.vhd"/>
+          <Attr Name="ImportTime" Val="1434304875"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/v7_bd/v7_bd.bd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/bd/bd/v7_bd/v7_bd.bd"/>
+          <Attr Name="ImportTime" Val="1432698319"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="hw_handoff/v7_bd_bd.tcl"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="hw_handoff/v7_bd.hwh"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="v7_bd_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_auto_pc_0/v7_bd_auto_pc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="hdl/v7_bd.vhd"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_xbar_0/v7_bd_xbar_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_bram_ctrl_reg_file_1/v7_bd_axi_bram_ctrl_reg_file_1.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_proc_sys_reset_0_0/v7_bd_proc_sys_reset_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_xadc_wiz_0_0/v7_bd_xadc_wiz_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_blk_mem_gen_0_0/v7_bd_blk_mem_gen_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_interconnect_0_0/v7_bd_axi_interconnect_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_chip2chip_0_0/v7_bd_axi_chip2chip_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_clk_wiz_0_0/v7_bd_clk_wiz_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_bram_ctrl_reg_file_0/v7_bd_axi_bram_ctrl_reg_file_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_bram_ctrl_cap_ram_3_0/v7_bd_axi_bram_ctrl_cap_ram_3_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_bram_ctrl_cap_ram_1_0/v7_bd_axi_bram_ctrl_cap_ram_1_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_bram_ctrl_0_0/v7_bd_axi_bram_ctrl_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="v7_bd.bd" FileRelPathName="ip/v7_bd_axi_bram_ctrl_cap_ram_0_0/v7_bd_axi_bram_ctrl_cap_ram_0_0.xci"/>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/tx_link_driver.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/tx_link_driver.vhd"/>
+          <Attr Name="ImportTime" Val="1432678827"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/rx_depad_cdc_align.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/rx_depad_cdc_align.vhd"/>
+          <Attr Name="ImportTime" Val="1432671341"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/rx_capture_buffer_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/rx_capture_buffer_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1432632918"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/register_file.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/register_file.vhd"/>
+          <Attr Name="ImportTime" Val="1432680772"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/link_align_ctrl.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/link_align_ctrl.vhd"/>
+          <Attr Name="ImportTime" Val="1432300257"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/ila_tx_pattern_generator/ila_tx_pattern_generator.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/ip/ila_tx_pattern_generator/ila_tx_pattern_generator.xci"/>
+          <Attr Name="ImportTime" Val="1432637958"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_register_file.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_register_file.vhd"/>
+          <Attr Name="ImportTime" Val="1432672847"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/gth_10g_wrapper.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/gth_10g_wrapper.vhd"/>
+          <Attr Name="ImportTime" Val="1432669525"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/drp_controller.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/drp_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1432502458"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/sources_1/new/ctp7_ttc.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/sources_1/new/ctp7_ttc.vhd"/>
+          <Attr Name="ImportTime" Val="1432823086"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/new/ctp7_v7_demo.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/sources_1/new/ctp7_v7_demo.vhd"/>
+          <Attr Name="ImportTime" Val="1432682642"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/clock_freq_measure.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/timing_pulse_gen.vhd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/imports/sources_1/imports/new/ttc_counters_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_gen2/CTP7-v7-stage1/workspace/ctp7_v7_s1/ctp7_v7_s1.srcs/sources_1/imports/sources_1/imports/new/ttc_counters_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1429209365"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="ctp7_v7_demo"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/new/constraints.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../ctp7_v7_demo/ctp7_v7_demo.srcs/constrs_1/imports/new/constraints.xdc"/>
+          <Attr Name="ImportTime" Val="1432541395"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/new/constraints.xdc"/>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="ctp7_v7_demo"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="QuestaSim/ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7vx690tffg1927-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7vx690tffg1927-2" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+  <HWSession Dir="hw_1" File="hw.xml"/>
+</Project>

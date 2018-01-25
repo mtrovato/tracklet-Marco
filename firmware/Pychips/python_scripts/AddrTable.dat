@@ -1,0 +1,63 @@
+*------------------------------------------------------------------------------------------
+* RegName           RegAddr     RegMask     R     	W     Description
+*------------------------------------------------------------------------------------------
+
+link1_spy		51000000	ffffffff	1		1	fifo spy
+link2_spy		52000000	ffffffff	1		1	fifo spy
+link3_spy		53000000	ffffffff	1		1	fifo spy
+
+link1_data0	 	51000003	ffffffff	1		1  	 input fifo		
+link1_data1	 	51000007	ffffffff	1	    1  	 input fifo		
+link2_data0	 	52000003	ffffffff	1	    1  	 input fifo		
+link2_data1	 	52000007	ffffffff	1	    1  	 input fifo		
+link3_data0	 	53000003	ffffffff	1	    1  	 input fifo		
+link3_data1	 	53000007	ffffffff	1	    1  	 input fifo		
+
+en_proc			55000000	ffffffff	1	    1	enable processing
+reader_data		58000000	ffffffff	1	    1	reader data
+
+track_out0		59000001	ffffffff	1		1	track out
+track_out1		59000002	ffffffff	1		1	track out
+track_out2		59000003	ffffffff	1		1	track out
+track_out3		59000004	ffffffff	1		1	track out
+
+tracklet_L1L2_1		5c000000	ffffffff	1		1	first part of tracklet
+tracklet_L1L2_2		5c200000	ffffffff	1		1	second part of tracklet
+
+*------------------------------------------------------------------------------------------
+* For Link test
+*------------------------------------------------------------------------------------------
+*Aurora_pphi
+*data io
+txdata1_pphi		5a01fff0	ffffffff	1		1
+txdata2_pphi		5a01fff1	ffffffff	1		1
+txdata3_pphi		5a01fff2	ffffffff	1		1
+rxdata1_pphi		5a01fff3	ffffffff	1		0
+rxdata2_pphi		5a01fff4	ffffffff	1		0	
+rxdata3_pphi		5a01fff5	ffffffff	1		0
+rxdata4_pphi		5a01fff6	ffffffff	1		0
+tx_fifo_pphi		5a01fff9	ffffffff	0		1
+rx_fifo_pphi		5a01fffa	ffffffff	1		0
+*live status
+live_status_pphi	5a02fff0	ffffffff	1		0	
+loopback_pphi		5a02fff1	ffffffff	1		1
+
+*Aurora_mphi
+*data io
+txdata1_mphi		5a11fff0	ffffffff	1		1
+txdata2_mphi		5a11fff1	ffffffff	1		1
+txdata3_mphi		5a11fff2	ffffffff	1		1
+rxdata1_mphi		5a11fff3	ffffffff	1		0
+rxdata2_mphi		5a11fff4	ffffffff	1		0	
+rxdata3_mphi		5a11fff5	ffffffff	1		0
+rxdata4_mphi		5a11fff6	ffffffff	1		0
+tx_fifo_mphi		5a11fff9	ffffffff	0		1
+rx_fifo_mphi		5a11fffa	ffffffff	1		0
+*live status			
+live_status_mphi	5a12fff0	ffffffff	1		0
+loopback_mphi		5a12fff1	ffffffff	1		1
+
+link_rst		5a8fffff	ffffffff	1		1
+link_en			5a9fffff	ffffffff	1		1
+timer_p2m		5aafffff	ffffffff	1		0
+timer_m2p		5abfffff	ffffffff	1		0

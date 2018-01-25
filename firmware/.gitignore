@@ -1,0 +1,96 @@
+*.log
+*.jou
+*.bak
+*~
+*.str
+
+*.DS_Store
+*._.DS_Store
+
+*.wcfg
+
+# VC709 Tracklet project
+TrackletProject/VC709/project/project.xpr
+TrackletProject/VC709/project/project.cache
+TrackletProject/VC709/project/project.runs
+TrackletProject/VC709/project/project.sim/
+TrackletProject/VC709/project/project.hw
+# ignore everything in the ip directory except .xci file
+!TrackletProject/VC709/project/IP/*
+TrackletProject/VC709/project/IP/*/*
+!TrackletProject/VC709/project/IP/*/*.xci
+
+# CTP7 Tracklet project
+TrackletProject/CTP7/project/project.xpr
+TrackletProject/CTP7/project/project.cache/
+TrackletProject/CTP7/project/project.runs/
+TrackletProject/CTP7/project/project.sim/
+TrackletProject/CTP7/project/project.ip_user_files/
+TrackletProject/CTP7/project/project.srcs/
+TrackletProject/CTP7/project/project.hw/
+TrackletProject/CTP7/project/project/
+TrackletProject/.Xil/
+TrackletProject/CTP7/project/constraints/debug.xdc
+# ignore everything in the ip directory except .xci file
+!TrackletProject/CTP7/project/IP/*
+TrackletProject/CTP7/project/IP/*/*
+!TrackletProject/CTP7/project/IP/*/*.xci
+TrackletProject/CTP7/project_input
+
+# CTP7 demo project
+TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.cache/
+TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.hw/
+TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.runs/
+# keep the debug file
+!TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.runs/impl_1/debug_nets.ltx
+# ignore everything in the ip directory except .xci file
+!TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.srcs/sources_1/ip/*
+TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.srcs/sources_1/ip/*/*
+!TrackletProject/CTP7/ctp7_v7_cornell_demo/ctp7_v7_cornell_demo.srcs/sources_1/ip/*/*.xci
+
+# VC707 Tracklet project
+TrackletProject/VC707/project_link/project_link.cache
+TrackletProject/VC707/project_link/project_link.runs
+TrackletProject/VC707/project_link/project_link.hw
+# ignore everything in the ip directory except .xci files
+!TrackletProject/VC707/project_link/project_link.srcs/sources_1/ip/*
+TrackletProject/VC707/project_link/project_link.srcs/sources_1/ip/*/*
+!TrackletProject/VC707/project_link/project_link.srcs/sources_1/ip/*/*.xci
+
+# eyescan subsystem
+*.dump
+*.csv
+*.png
+TrackletProject/VC707/project_link/project_link.srcs/sources_1/links/eyescan/software/prebuilt_elf/*
+TrackletProject/VC707/project_link/eyediagrams/*
+TrackletProject/VC707/project_link/ascii_eye.txt
+!TrackletProject/VC707/project_link/project_link.srcs/sources_1/links/eyescan/bd/eyescan_subsystem/ip/*
+TrackletProject/VC707/project_link/project_link.srcs/sources_1/links/eyescan/bd/eyescan_subsystem/ip/*/*
+!TrackletProject/VC707/project_link/project_link.srcs/sources_1/links/eyescan/bd/eyescan_subsystem/ip/*/*.xci
+
+# SDK
+TrackletProject/VC707/project_link/project_link.sdk/webtalk/*
+TrackletProject/VC707/project_link/project_link.sdk/RemoteSystemsTempFiles/*
+
+# InputDTC 
+InputDTC/project/project.cache/
+InputDTC/project/project.hw/
+InputDTC/project/project.runs/
+InputDTC/project/project.ip_user_files/
+InputDTC/project/project.sim/
+InputDTC/project/project.srcs/
+InputDTC/project/project.xpr
+InputDTC/project/.Xil
+# ignore everything in the ip directory except .xci file
+!InputDTC/project/IP/*
+InputDTC/project/IP/*/*
+!InputDTC/project/IP/*/*.xci
+
+# Output for Performance Tools
+TrackletProject/AdditionalFiles/Output_*
+
+# New Block Design directory
+TrackletProject/CTP7/BD/*
+!TrackletProject/CTP7/BD/v7_bd.bd
+InputDTC/BD/*
+!InputDTC/BD/v7_bd.bd
