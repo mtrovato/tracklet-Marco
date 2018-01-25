@@ -114,7 +114,7 @@ begin
      CLKOUT2_DIVIDE       => 1,
      CLKOUT2_DUTY_CYCLE   => 0.500,
      CLKOUT2_PHASE        => 0.000,
-     CLKOUT2_DUTY_CYCLE   => 0.500
+     CLKOUT2_USE_FINE_PS  => false
      )
     port map
     -- Output clocks
